@@ -1,0 +1,72 @@
+{% extends 'core/base.html'%} {% block content%}
+<div class="container text-white">
+  <h2 class="mt-4 border-bottom">CONTACT</h2>
+  <p class="text-center mt-2">
+    Do you have any questions? please do not hesitate to contact. I will come
+    back to you within a matter of hours to help you.
+  </p>
+
+  <div class="row mt-4">
+    <div class="col-sm-9">
+      <form action="">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Your name:</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="enter your name"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Your subject</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="enter subject"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Your messages:</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">send</button>
+      </form>
+    </div>
+    <div class="col-sm-3">
+        <div class="text-center mt-3"><i class="fa-solid fa-location-crosshairs fa-2x"></i>
+        <p class="text-center mt-2">Basundhara-03, Kathmandu, Nepal</p></div>
+
+        <div class="text-center mt-3"><i class="fa-solid fa-circle-phone-flip fa-2x"></i>
+            <p class="text-center mt-2">+977 9844249957</p></div>
+
+            <div class="text-center mt-3"><i class="fa-solid fa-envelope fa-2x"></i>
+                <p class="text-center mt-2">contact143@gmail.com</p></div>
+    </div>
+  </div>
+</div>
+
+{% endblock content%}

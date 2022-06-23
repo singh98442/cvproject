@@ -1,0 +1,51 @@
+{% extends 'core/base.html'%} {% load static %} {% block content %}
+<div>
+  <div class="text-center mt-5">
+    <img
+      src="{% static 'core/images/pic2.jpg'%}"
+      class="img-thumbnail"
+      width="200px"
+      height="100px"
+      alt="profilepic"
+    />
+  </div>
+  <div class="mt-2 text-light"><h1>HELLO,</h1></div>
+  <div class="text-light text-justify">
+    <p
+      class="ps-5 pe-5 fst-normal text-justify lh-lg"
+      style="text-indent: 80px"
+    >
+      <b
+        class="text-warning content-justify lh-lg fs-3 fst-italic"
+        style="content: justify"
+      >
+        ipsum
+      </b>
+      dolor sit amet, consectetur adipisicing elit. Quasi harum temporibus
+      aspernatur earum tempore sapiente iusto nisi officia, accusamus eos,
+      reprehenderit iste? Quidem, nisi dignissimos? Suscipit amet sed mollitia
+      minus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
+      neque libero nihil obcaecati consectetur asperiores deleniti enim!
+      Provident eius aspernatur, optio, exercitationem quisquam cupiditate sed,
+      velit voluptas magni quod ex. Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Doloribus modi dolor asperiores officiis corrupti
+      consequatur, dolorum libero impedit similique consectetur aliquam
+      incidunt! Odio amet quibusdam possimus voluptate ullam hic? Nulla? Lorem
+      ipsum dolor sit amet consectetur adipisicing elit. Id ipsa nulla tenetur
+      iusto dolorem alias! Hic, nesciunt. Voluptas, aperiam eaque. Dolorem alias
+      quo, repudiandae delectus expedita fugit. Et, minima tenetur!
+    </p>
+  </div>
+  <hr class="text-light">
+
+  <div class="text-center mt-2 mb-4">
+    <a href="{% url 'contact'%}"
+      ><button type="button" class="btn btn-warning me-5">HIRE ME</button>
+    </a>
+    <a href="{% url 'contact'%}">
+      <button type="button" class="btn btn-info">CONTACT ME</button>
+    </a>
+  </div>
+</div>
+
+{% endblock content %}
